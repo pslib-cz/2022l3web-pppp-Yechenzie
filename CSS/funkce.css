@@ -1,0 +1,96 @@
+:root {
+    --orange: #F5841F;
+    --lightblue: #8ECAE6;
+    --lightbluetransparent: rgba(142, 202, 230, 12%);
+    --darkblue: #16213C;
+    --grey: #F5F5F5;
+}
+
+.main>.main__header {
+    padding: 0em .5em 2em .5em;
+}
+
+.main>.main__header>h2 {
+    text-align: center;
+}
+
+.main>.main__header>a>img {
+    display: block;
+    margin: 0 auto;
+}
+
+.main>.tutorialy {
+    background-color: var(--grey);
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+
+.main>.tutorialy>a {
+    background-color: white;
+    border-radius: 1em;
+    padding: 1em;
+    color: var(--darkblue);
+}
+
+.main>.tutorialy>a:link {
+    color: var(--darkblue);
+}
+
+.main>.tutorialy>a:visited {
+    color: var(--darkblue);
+}
+
+.main>.tutorialy>a:active {
+    color: var(--darkblue);
+}
+
+.main>.tutorialy>a>h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.main>.tutorialy>a>h2 {
+    text-align: center;
+}
+
+.main>.dotazy>p {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main>.dotazy {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-bottom: 2em;
+}
+
+.main>.dotazy>h3 {
+    margin: 0;
+}
+
+.main>.dotazy>p {
+    text-align: center;
+}
+
+header>.button--header {
+    margin: 0;
+}
+
+.main>.tutorialy {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5em;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.main>.main__header>p {
+    text-align: center;
+}
+
+.main>.tutorialy>a:hover>h3 {
+    color: var(--darkblue);
+}
